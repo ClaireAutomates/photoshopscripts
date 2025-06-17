@@ -1,3 +1,8 @@
+/**
+* Original source: 
+* https://community.adobe.com/t5/photoshop-ecosystem-discussions/create-one-color-jpgs-from-csv-file/m-p/12528537
+*/
+
 var tf = File.openDialog("Select a text file to read");
 tf.open("r");
 var txt = tf.read();
